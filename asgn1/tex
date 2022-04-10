@@ -1,0 +1,38 @@
+\documentclass[journal, 11pt, twocolumn]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\title{\textbf{Assignment-1}}
+\author{ U.S.M.M TEJA \\
+cs21btech11059}
+
+\begin{document}
+    \maketitle
+    \raggedright
+    \section*{1-b[ICSE 2014]}
+    find the values of x for which it satisfies the equation
+    -2$\frac{5}{6} \leq \frac{1}{2} - \frac{2x}{3} \leq 2$\\
+    \section*{Solution}
+    let us solve the equation
+    \newline
+    The equation is given by
+    \newline
+    \begin{align}
+        -2\frac{5}{6} &\leq \frac{1}{2} - \frac{2x}{3} \leq 2\\
+        -\frac{17}{6} &\leq -\frac{2x}{3} \leq 2\\
+        -\frac{10}{3} &\leq -\frac{2x}{3} \leq \frac{3}{2}
+        \intertext{multiplying - on all the sides,}
+        -\frac{3}{2} &\leq\frac{2x}{3} \leq \frac{10}{3}\\
+        -\frac{9}{2} &\leq 2x < 10\\
+        -\frac{9}{4} &\leq x < 5
+    \end{align}
+    
+    as x belongs to whole numbers we should consider our lower bound as 0
+    
+    so values of x are : 0\leq x < 5
+    \newline	
+
+\end{document}
