@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+int x; // defining x
+
+for(x=0;x<10;x++){
+if(-17/6 < (0.5-(2*x)/3) && (0.5-(2*x)/3) <=2)  // solving the inequality
+  {
+      if(x>=0)  // writing this condition because we have to plot whole numbers only
+      printf("%d ",x);
+   }
+
+  }
+
+}
